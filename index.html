@@ -302,7 +302,7 @@
                 <p>
                     Noch sind nicht alle Details in trockenen Tüchern. Der Einzug steht noch bevor und wir haben noch
                     Plätze frei. Wenn Du deshalb auf dem Laufenden gehalten werden möchtest oder von Anfang an dabei
-                    sein willst, dann lass uns deine Mailadresse da oder <a href="mailto:launchpad@pioniergarage.de">schreib uns</a> direkt!
+                    sein willst, dann lass uns deine Mailadresse da oder <a href="mailto:launchpad@pioniergarage.de" onClick="ga('send', 'event', { eventCategory: 'contact', eventAction: 'email'});">schreib uns</a> direkt!
                 </p>
             </header>
             <hr/>
@@ -347,8 +347,9 @@
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
                                         type="text" name="b_e553bb00b4bc28c741b55731a_e9aba1af55"
                                         tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
-                                                          id="mc-embedded-subscribe" class="button"></div>
+                                <div class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onClick="ga('send', 'event', { eventCategory: 'contact', eventAction: 'newsletter'});">
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -390,7 +391,7 @@
                                     <h3 class="icon fa-comment">Social</h3>
 
                                     <p>
-                                        <a href="https://facebook.com/pioniergarage">facebook.com/pioniergarage</a>
+                                        <a href="https://facebook.com/pioniergarage" onClick="ga('send', 'event', { eventCategory: 'contact', eventAction: 'facebook'});">facebook.com/pioniergarage</a>
                                     </p>
                                 </section>
                             </div>
@@ -399,7 +400,7 @@
                                     <h3 class="icon fa-envelope">Email</h3>
 
                                     <p>
-                                        <a href="mailto:launchpad@pioniergarage.de">launchpad@pioniergarage.de</a>
+                                        <a href="mailto:launchpad@pioniergarage.de" onClick="ga('send', 'event', { eventCategory: 'contact', eventAction: 'email'});">launchpad@pioniergarage.de</a>
                                     </p>
                                 </section>
                             </div>
